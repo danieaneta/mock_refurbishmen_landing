@@ -1,0 +1,114 @@
+:root {
+    --black: #111114;
+    --white: #fafaff;
+    --link: #879bed;
+    --oswald: "Oswald", sans-serif;
+    --roboto: 'Roboto Mono', monospace;
+    --hover: #9d00ff;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#intro h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 7%;
+    font-family: var(--oswald);
+    font-size: 400%;
+}
+
+#intro p {
+    display: flex;
+    justify-content: center;
+    font-family: var(--roboto);
+}
+
+nav {
+    font-family: var(--roboto);
+    font-size: 100%;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    color: var(--link);
+}
+
+nav a:hover {
+    color: var(--hover);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#content p {
+    display: flex;
+    justify-content: center;
+    font-family: var(--roboto);
+    font-size: 80%;
+}
+
+/* #content .motto {
+    display: flex;
+    justify-content: center;
+} */
+
+#contact {
+    margin-top: 3rem;
+}
+
+#contact h2 {
+    display: flex;
+    justify-content: center;
+    font-family: var(--roboto);
+}
+
+#contact p {
+    display: flex;
+    justify-content: center;
+    font-family: var(--roboto);
+}
+
+#contact .fa-solid fa-envelope {
+    font-size: 200%;
+    color: var(--white)
+}
+
+footer {
+    font-family: var(--roboto);
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
+ 
+footer small {
+    display: flex;
+    justify-content: center;
+}
+
